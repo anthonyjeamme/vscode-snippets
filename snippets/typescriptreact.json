@@ -1,0 +1,40 @@
+{
+	"React Component":{
+		"prefix": "slc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const ${TM_FILENAME_BASE} = () => {",
+			"\treturn (",
+			"\t\t<div className='${TM_FILENAME_BASE}'>",
+			"\t\t\t${TM_FILENAME_BASE}",
+			"\t\t</div>",
+			"\t)",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		]
+	},
+	"React Component with style":{
+		"prefix": "slcp",
+		"body": [
+			"import React from 'react'",
+			"",
+			"import './${TM_FILENAME_BASE}.scss'",
+			"",
+			"const ${TM_FILENAME_BASE} = () => {",
+			"\treturn (",
+			"\t\t<div className='${TM_FILENAME_BASE}'>",
+			"\t\t\t${TM_FILENAME_BASE}",
+			"\t\t</div>",
+			"\t)",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		]
+	},
+	"Import react":{
+		"prefix": "ir",
+		"body": "import React from 'react'"
+	}
+}
