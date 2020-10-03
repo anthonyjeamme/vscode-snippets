@@ -1,4 +1,16 @@
 {
+	"Component":{
+		"prefix": "cc",
+		"body": [
+			"const $1 = () => {",
+			"\treturn (",
+			"\t\t<div className='$1'>",
+			"\t\t\t$1",
+			"\t\t</div>",
+			"\t)",
+			"}"
+		]
+	},
 	"React Component":{
 		"prefix": "slc",
 		"body": [
